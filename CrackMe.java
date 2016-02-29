@@ -4,7 +4,10 @@ import java.io.IOException;
 
 import javax.swing.JOptionPane;
 
-/** Classe du CrackMe
+/** CrackMe.java permet de générer l'épreuve de crack me du coté créateur d'épreuve
+ * @see FenetreCrack
+ * @author Mr X
+ * @version 2.0
 */
 
 public class CrackMe {
@@ -12,7 +15,7 @@ public class CrackMe {
 
 	public String[][] intermediaire(String[] keyword) {
 		/**
-		 * Classe qui permet de crypter le mot de passe rentrer par le créateur de l'épreuve pour qu'il n'apparaisse pas
+		 * Permet de crypter le mot de passe rentrer par le créateur de l'épreuve pour qu'il n'apparaisse pas
 		 * en clair dans le code. Le mot de passe est crypté par rapport à une liste de mots et un alphabet.
 		 * @param keyword string, mot de passe rentré par le créateur de l'épreuve.
 		 * @return string crack, mot de passe après cryptage.
